@@ -8,3 +8,5 @@ steps:
 
 images:
 - us-central1-docker.pkg.dev/nhl25-473523/github/nhl-player-odds-job:$SHORT_SHA
+options:
+  logging: CLOUD_LOGGING_ONLY
